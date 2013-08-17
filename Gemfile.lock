@@ -1,6 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    aws-sdk (1.15.0)
+      json (~> 1.4)
+      nokogiri (< 1.6.0)
+      uuidtools (~> 2.1)
+    json (1.8.0)
+    nokogiri (1.5.10)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -10,11 +16,13 @@ GEM
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
     tilt (1.4.1)
+    uuidtools (2.1.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk
   rack
   rmagick
   sinatra
