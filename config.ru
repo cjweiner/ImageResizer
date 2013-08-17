@@ -1,4 +1,5 @@
 require './main.rb'
-require './env'
+require './helpers/image_utility.rb'
+require './env.rb'
 
 run Sinatra::Application
