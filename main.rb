@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'sinatra'
 require 'RMagick'
-require 'tempfile'
 require 'aws-sdk'
 
 include Magick
