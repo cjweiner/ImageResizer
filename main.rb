@@ -49,4 +49,3 @@ get '/download' do
 end
 
 require_relative './helpers/image_utility'
-require_relative './env'
