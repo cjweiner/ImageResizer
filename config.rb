@@ -9,7 +9,7 @@
 # Uncomment these to use regular Ruby gems.
  require 'modular-scale'
  require 'sassy-math'
-
+ require './env' if File.exists?('env.rb')
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "public/css"
